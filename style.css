@@ -1,0 +1,102 @@
+body {
+    padding-top: 800px;
+    text-align: center;
+}
+
+#welcome {
+    background: radial-gradient(circle, yellow, orange, green);
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: table;
+    opacity: 0.83;
+    z-index: 9;
+}
+
+.main {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+
+ol {
+    text-align: left;
+    line-height: 1.3;
+    font-size: 20px;
+    margin: 25px auto;
+    max-width: 450px;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+p {
+    line-height: 1.3;
+    font-size: 20px;
+    margin: 25px auto;
+    max-width: 450px;
+}
+
+.line {
+    width: 110px;
+    height: 6px;
+    background-color: black;
+    margin: 5px auto;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+.linksbox {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    float: left;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.links:hover {
+    background-color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
